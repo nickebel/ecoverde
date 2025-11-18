@@ -7,33 +7,47 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <style>
-        body { margin:0; font-family:Arial; background:#ecf7ec; color:#1b3a1b; padding:20px; }
-        a { color:#1e6d1e; font-weight:bold; text-decoration:none; }
+        body { margin:0; background:#ecf7ec; font-family:Arial; color:#1b3a1b; padding-bottom:20px; }
+
+        nav {
+            background:#184f18; padding:12px; display:flex;
+            justify-content:center; gap:20px; box-shadow:0 3px 10px #0003;
+        }
+        nav a { color:white; text-decoration:none; display:flex; align-items:center; gap:5px; font-weight:bold; }
+
+        h1 { margin:20px; text-align:center; }
+
         .card {
-            background:white; padding:25px; border-radius:14px;
-            box-shadow:0 6px 18px #0003; margin-top:20px;
+            max-width:900px; background:white; margin:auto; padding:25px;
+            border-radius:14px; box-shadow:0 6px 18px #0003;
         }
-        img {
-            width:100%; border-radius:14px; margin-top:20px;
-            box-shadow:0 5px 15px #0003;
-        }
+
+        img { width:100%; border-radius:14px; margin-top:20px; }
     </style>
 </head>
 
 <body>
 
-<a href="index.html"><span class="material-icons">arrow_back</span> Voltar</a>
+<nav>
+    <a href="index.html"><span class="material-icons">home</span> Início</a>
+    <a href="sobre.html"><span class="material-icons">eco</span> Sobre</a>
+    <a href="desenvolvimento.html"><span class="material-icons">handyman</span> Desenvolvimento</a>
+    <a href="solucoes.html"><span class="material-icons">lightbulb</span> Soluções</a>
+    <a href="impactos.html"><span class="material-icons">public</span> Impactos</a>
+    <a href="equipe.html"><span class="material-icons">groups</span> Equipe</a>
+    <a href="pdf.html"><span class="material-icons">picture_as_pdf</span> PDF</a>
+</nav>
 
-<h1><span class="material-icons">handyman</span> Desenvolvimento</h1>
+<h1>🛠️ Como Desenvolvemos</h1>
 
 <div class="card">
-    <p>✔ Coleta de garrafas PET descartadas</p>
-    <p>✔ Corte, higienização e decoração manual</p>
-    <p>✔ Cultivo das mini-mudas</p>
-    <p>✔ Testes de protótipos</p>
-    <p>✔ Oficinas e parcerias comunitárias</p>
+    <p>✔ Coletamos garrafas PET descartadas pela comunidade.</p>
+    <p>✔ Limpamos, cortamos e preparamos os potes.</p>
+    <p>✔ Cultivamos as mudas com cuidado e técnica.</p>
+    <p>✔ Criamos protótipos e testamos viabilidade.</p>
+    <p>✔ Desenvolvemos oficinas e ações educativas.</p>
 
-    <img src="https://i.imgur.com/7lStt93.jpeg" alt="Garrafa PET sendo cortada">
+    <img src="https://i.imgur.com/7lStt93.jpeg" alt="Processo sustentável">
 </div>
 
 </body>
