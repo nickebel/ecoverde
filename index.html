@@ -3,95 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoVerde - Sustentabilidade na Prática</title>
+    <title>EcoVerde - Início</title>
 
-    <!-- Google Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-            background: #ecf7ec;
-            color: #1b3a1b;
-        }
+        body { margin: 0; background: #ecf7ec; font-family: Arial; color:#1b3a1b; }
 
         header {
             background: linear-gradient(135deg, #1e6d1e, #3da93d);
             padding: 50px;
             text-align: center;
             color: white;
-            box-shadow: 0px 4px 15px #00000050;
+            box-shadow: 0px 4px 15px #00000040;
         }
 
-        header h1 {
-            font-size: 2.8rem;
-            margin: 0;
-            font-weight: bold;
-        }
-
-        header p {
-            margin-top: 10px;
-            font-size: 1.2rem;
-        }
+        header h1 { margin: 0; font-size: 2.8rem; }
+        header p { margin-top: 10px; font-size: 1.2rem; }
 
         nav {
-            background: #184f18;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 12px;
-            box-shadow: 0 2px 8px #0000003d;
+            background:#184f18;
+            padding:12px;
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            box-shadow:0 3px 10px #00000030;
         }
 
         nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 6px;
+            color:white;
+            font-weight:bold;
+            text-decoration:none;
+            display:flex;
+            align-items:center;
+            gap:5px;
         }
 
         section {
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
+            max-width:900px;
+            margin:auto;
+            padding:40px 20px;
         }
 
         .card {
-            background: #ffffff;
-            padding: 25px;
-            border-radius: 14px;
-            box-shadow: 0px 6px 18px #00000030;
-            margin-bottom: 35px;
+            background:white;
+            padding:25px;
+            border-radius:14px;
+            box-shadow:0 6px 20px #00000030;
         }
 
         .img-banner {
-            width: 100%;
-            border-radius: 14px;
-            box-shadow: 0 5px 16px #00000040;
-            margin-top: 20px;
+            width:100%;
+            border-radius:14px;
+            margin-top:20px;
+            box-shadow:0 4px 15px #0003;
         }
 
         .btn {
-            display: inline-block;
-            margin-top: 20px;
-            background: #1e6d1e;
-            padding: 14px 22px;
-            color: white;
-            border-radius: 10px;
-            font-weight: bold;
-            text-decoration: none;
-            box-shadow: 0 3px 12px #00000040;
+            margin-top:20px;
+            display:inline-block;
+            padding:14px 20px;
+            background:#1e6d1e;
+            color:white;
+            border-radius:10px;
+            font-weight:bold;
+            text-decoration:none;
+            box-shadow:0px 3px 12px #00000040;
         }
 
         footer {
-            background: #1e6d1e;
-            padding: 25px;
-            text-align: center;
-            color: white;
-            margin-top: 40px;
+            background:#1e6d1e;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
         }
     </style>
 </head>
@@ -100,41 +85,40 @@
 
 <header>
     <h1>🌱 EcoVerde</h1>
-    <p>Transformando garrafas PET em vida — Sustentabilidade que você vê e toca.</p>
+    <p>Transformando garrafas PET em vida</p>
 </header>
 
 <nav>
+    <a href="index.html"><span class="material-icons">home</span> Início</a>
     <a href="sobre.html"><span class="material-icons">eco</span> Sobre</a>
     <a href="desenvolvimento.html"><span class="material-icons">handyman</span> Desenvolvimento</a>
     <a href="solucoes.html"><span class="material-icons">lightbulb</span> Soluções</a>
     <a href="impactos.html"><span class="material-icons">public</span> Impactos</a>
     <a href="equipe.html"><span class="material-icons">groups</span> Equipe</a>
+    <a href="pdf.html"><span class="material-icons">picture_as_pdf</span> PDF</a>
 </nav>
 
 <section>
     <div class="card">
-        <h2>Bem-vindo ao EcoVerde</h2>
+        <h2>Bem-vindo!</h2>
         <p>
-            Nosso projeto transforma o que seria lixo em vida nova. Garrafas PET viram potes criativos,
-            onde cultivamos mini-mudas sustentáveis. A ideia é simples, eficaz e com impacto real.
+            Aqui você encontra todas as informações sobre o projeto EcoVerde: propósito,
+            desenvolvimento, impacto, propostas e o PDF completo para leitura.
         </p>
 
-        <!-- Imagem principal -->
-        <img class="img-banner" src="https://i.imgur.com/H0pZx9R.jpeg" alt="Imagem de mini-mudas sustentáveis">
+        <img src="https://i.imgur.com/H0pZx9R.jpeg"
+             class="img-banner"
+             alt="Mini mudas sustentáveis">
 
-        <a class="btn" href="EcoVerde.pdf" download>
-            📄 Baixar PDF Completo
+        <a class="btn" href="EcoVerde.pdf" target="_blank">
+            📄 Abrir PDF Completo
         </a>
     </div>
 </section>
 
 <footer>
-    © 2025 – Projeto EcoVerde | IFAL – Campus São Miguel dos Campos
+    © 2025 — Projeto EcoVerde | IFAL – Campus São Miguel dos Campos
 </footer>
-
-</body>
-</html>
-
 
 </body>
 </html>
