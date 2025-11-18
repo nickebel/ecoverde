@@ -2,39 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoVerde - Impactos</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <style>
-        body { margin:0; background:#ecf7ec; font-family:Arial; color:#1b3a1b; padding-bottom:20px; }
-
-        nav { background:#184f18; padding:12px; display:flex; justify-content:center; gap:20px; box-shadow:0 3px 10px #0003; }
-        nav a { color:white; text-decoration:none; display:flex; align-items:center; gap:5px; font-weight:bold; }
-
-        h1 { margin:20px; text-align:center; }
-
-        .card {
-            max-width:900px; margin:auto; padding:25px;
-            background:white; border-radius:14px; box-shadow:0 6px 18px #0003;
-        }
-
-        img { width:100%; border-radius:14px; margin-top:20px; }
+        body { margin: 0; background:#ecf7ec; font-family:Arial,sans-serif; color:#1b3a1b; }
+        header { background: linear-gradient(135deg,#1e6d1e,#3da93d); padding:40px 20px; text-align:center; color:white; box-shadow:0 4px 15px #00000040; }
+        header h1 { margin:0; font-size:2.4rem; }
+        nav { background:#184f18; padding:12px; display:flex; flex-wrap:wrap; justify-content:center; gap:15px; box-shadow:0 3px 10px #00000030; }
+        nav a { color:white; font-weight:bold; text-decoration:none; display:flex; gap:5px; align-items:center; font-size:0.95rem; }
+        section { max-width:900px; margin:auto; padding:20px; }
+        .card { background:white; padding:25px; border-radius:14px; box-shadow:0 6px 20px #00000030; }
+        .img-banner { width:100%; border-radius:14px; margin-top:20px; box-shadow:0 4px 15px #0003; object-fit:cover; }
+        footer { background:#1e6d1e; color:white; text-align:center; padding:20px; margin-top:60px; box-shadow:0 -3px 12px #00000040; font-size:0.95rem; }
+        @media(max-width:600px){ header h1{font-size:2rem;} .card{padding:18px;} }
     </style>
 </head>
 
 <body>
-<header style="
-    background: linear-gradient(135deg, #1e6d1e, #3da93d);
-    padding: 50px;
-    text-align: center;
-    color: white;
-    box-shadow: 0px 4px 15px #00000040;
-">
-    <h1 style="margin: 0; font-size: 2.8rem;">🌱 EcoVerde</h1>
-    <p style="margin-top: 10px; font-size: 1.2rem;">
-        Transformando garrafas PET em vida
-    </p>
+
+<header>
+    <h1>🌱 EcoVerde</h1>
+    <p>Transformando garrafas PET em vida</p>
 </header>
 
 <nav>
@@ -47,25 +38,20 @@
     <a href="pdf.html"><span class="material-icons">picture_as_pdf</span> PDF</a>
 </nav>
 
-<h1>🌍 Impactos Esperados</h1>
+<section>
+    <div class="card">
+        <h2>Impactos Esperados</h2>
 
-<div class="card">
-    <p><b>Ambientais:</b> Menos descarte de plástico e mais reaproveitamento.</p>
-    <p><b>Sociais:</b> Maior engajamento em educação ambiental.</p>
-    <p><b>Econômicos:</b> Geração de renda com baixo investimento.</p>
-    <p><b>Educativos:</b> Desenvolvimento de criatividade e consciência ecológica.</p>
+        <p><strong>Ambientais:</strong> Redução no descarte inadequado de garrafas PET e incentivo à reciclagem.</p>
+        <p><strong>Sociais:</strong> Promoção da educação ambiental e engajamento da comunidade.</p>
+        <p><strong>Econômicos:</strong> Possibilidade de geração de renda com produtos sustentáveis.</p>
+        <p><strong>Educativos:</strong> Desenvolvimento de responsabilidade social e habilidades práticas.</p>
 
-    <img src="assets/img/WhatsApp Image 2025-11-18 at 09.37.49 (1).jpeg" alt="Impactos ambientais">
-</div>
-<footer style="
-    background:#1e6d1e;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:60px;
-    font-family:Arial;
-    box-shadow:0 -3px 12px #00000040;
-">
+        <img class="img-banner" src="assets/img/impactos.jpeg" alt="Impactos ambientais">
+    </div>
+</section>
+
+<footer>
     <span style="font-size:1.2rem;">🌱</span><br>
     © <script>document.write(new Date().getFullYear())</script> — Projeto EcoVerde  
     <br>IFAL – Campus São Miguel dos Campos
