@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVerde - ENEM</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        body {
+            margin: 0;
+            background: #ecf7ec;
+            font-family: Arial, sans-serif;
+            color: #1b3a1b;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, #1e6d1e, #3da93d);
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0px 4px 15px #00000040;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.4rem;
+            font-family: "Reenie Beanie", cursive;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Menu */
+        nav {
+            background: #184f18;
+            padding: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            box-shadow: 0 3px 10px #00000030;
+        }
+
+        nav a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.95rem;
+        }
+
+        /* Conteúdo */
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 14px;
+            box-shadow: 0 6px 20px #00000030;
+        }
+
+        .img-banner {
+            width: 100%;
+            border-radius: 14px;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px #0003;
+        }
+
+        footer {
+            background:#1e6d1e;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:60px;
+            font-family:Arial;
+            font-size: 0.95rem;
+            box-shadow:0 -3px 12px #00000040;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                padding: 18px;
+            }
+
+            nav {
+                gap: 10px;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+
+    <!-- Fonte Reenie Beanie -->
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+    <h1>EcoVerde</h1>
+    <p>Conexão com o ENEM</p>
+</header>
+
+<nav>
+    <a href="index.html"><span class="material-icons">home</span> Início</a>
+    <a href="sobre.html"><span class="material-icons">eco</span> Sobre</a>
+    <a href="desenvolvimento.html"><span class="material-icons">handyman</span> Desenvolvimento</a>
+    <a href="solucoes.html"><span class="material-icons">lightbulb</span> Soluções</a>
+    <a href="impactos.html"><span class="material-icons">public</span> Impactos</a>
+    <a href="equipe.html"><span class="material-icons">groups</span> Equipe</a>
+    <a href="pdf.html"><span class="material-icons">picture_as_pdf</span> PDF</a>
+    <a href="enem.html"><span class="material-icons">school</span> ENEM</a>
+</nav>
+
+<section>
+    <div class="card">
+        <h2>Questão do ENEM Relacionada ao EcoVerde</h2>
+
+        <p>
+            Esta questão do ENEM reforça a importância de ações ambientais que ajudam a reduzir os níveis de CO₂ na atmosfera — exatamente a essência do Projeto EcoVerde.
+            Interpretar esse tipo de questão é importante para compreender como pequenas ações sustentáveis,
+            como cultivar plantas e reutilizar garrafas PET, contribuem para diminuir impactos ambientais globais.
+        </p>
+
+        <!-- Imagem da questão -->
+        <img class="img-banner" src="assets/img/questao-enem.jpeg" alt="Questão do ENEM sobre mitigação ambiental">
+
+        <h3 style="margin-top: 25px;">Resposta e Explicação</h3>
+
+        <p><b>✔ Alternativa correta: A — Plantar mais árvores.</b></p>
+
+        <p>
+            Árvores e plantas realizam fotossíntese, processo em que absorvem CO₂ diretamente da atmosfera.
+            Isso reduz a quantidade desse gás responsável pelo agravamento do efeito estufa.
+        </p>
+
+        <p>
+            O EcoVerde trabalha exatamente com esse princípio ambiental:
+            incentivar o cultivo de plantas e reutilizar materiais que antes seriam descartados,
+            contribuindo para uma comunidade mais verde, consciente e sustentável.
+        </p>
+
+    </div>
+</section>
+
+<footer>
+    <span style="font-size:1.2rem;">🌱</span><br>
+    © <script>document.write(new Date().getFullYear())</script> — Projeto EcoVerde  
+    <br>IFAL – Campus São Miguel dos Campos
+</footer>
+
+</body>
+</html>
